@@ -6,7 +6,7 @@ In this project, I simulated a cache to evaluate various cache configurations. I
 
 In the project directory, run:
 
->make
+>make<br>
 >./first \<cache size\> \<block size\> \<cache policy\> \<associativity\> \<prefetch size\> \<trace file\>
 
 ### Arguments
