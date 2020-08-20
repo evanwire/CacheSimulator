@@ -1,7 +1,7 @@
-all: first
+all: cache
 
-first:
-	gcc -g -Wall -lm -Werror -fsanitize=address -std=c11 first.c -o first
+cache:
+	gcc -g -Wall -lm -Werror -fsanitize=address -std=c11 cache.c -o cache
 
 clean:
-	rm -rf first
+	rm -rf cache
